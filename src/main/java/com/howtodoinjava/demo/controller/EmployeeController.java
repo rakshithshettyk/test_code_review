@@ -18,5 +18,8 @@ public class EmployeeController {
 		employeesList.add(new Employee(1,"lokesh","gupta","howtodoinjava@gmail.com"));
 		return employeesList;
     }
+	@RequestMapping("/hello")
+	public void testMethod(){
+	}
 
 }
