@@ -18,7 +18,6 @@ public class Employee {
 	private String lastName;
 	private String email;
 	private String afterChange;
-	private String isGerrit;
 
 	
 	public Integer getId() {
